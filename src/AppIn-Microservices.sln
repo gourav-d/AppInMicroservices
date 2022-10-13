@@ -17,7 +17,12 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Basket.API", "Services\Bask
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Discount", "Discount", "{09790A82-D421-4E82-9A9C-4647BE088452}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Discount.API", "Services\Discount\Discount.API\Discount.API.csproj", "{2B97584B-A7E0-4379-A4D5-2D19D362260C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Discount.API", "Services\Discount\Discount.API\Discount.API.csproj", "{2B97584B-A7E0-4379-A4D5-2D19D362260C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Database", "Database", "{C842709C-A253-41B0-8BF8-7209ACD5BDAC}"
+	ProjectSection(SolutionItems) = preProject
+		ManualScripts.txt = ManualScripts.txt
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -52,6 +57,7 @@ Global
 		{773D020A-2A77-4A1C-BA84-C38AF23FEE19} = {F63E7058-68C4-47BB-84F5-65E10B7335BD}
 		{09790A82-D421-4E82-9A9C-4647BE088452} = {3F8A7CD7-0418-4F11-A16C-CBC5405D632C}
 		{2B97584B-A7E0-4379-A4D5-2D19D362260C} = {09790A82-D421-4E82-9A9C-4647BE088452}
+		{C842709C-A253-41B0-8BF8-7209ACD5BDAC} = {09790A82-D421-4E82-9A9C-4647BE088452}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {0F318C3C-7C28-422E-96D9-53B0E2183674}
