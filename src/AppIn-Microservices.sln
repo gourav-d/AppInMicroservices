@@ -47,6 +47,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Postman", "Postman", "{2FBE
 		Assets\Postman\Microservices.Net.postman_collection.json = Assets\Postman\Microservices.Net.postman_collection.json
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ApiGateways", "ApiGateways", "{3158E48C-F337-4461-93A9-7DD60B7A0B27}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OcelotApiGw", "ApiGateways\OcelotApiGw\OcelotApiGw.csproj", "{5310CC9E-48D5-4A09-9A40-4DB5B6CA4190}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -93,6 +97,10 @@ Global
 		{42A7122D-2889-4E3E-AA2D-825C46C05B22}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{42A7122D-2889-4E3E-AA2D-825C46C05B22}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{42A7122D-2889-4E3E-AA2D-825C46C05B22}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5310CC9E-48D5-4A09-9A40-4DB5B6CA4190}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5310CC9E-48D5-4A09-9A40-4DB5B6CA4190}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5310CC9E-48D5-4A09-9A40-4DB5B6CA4190}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5310CC9E-48D5-4A09-9A40-4DB5B6CA4190}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -113,6 +121,7 @@ Global
 		{698ACF4F-70E8-4B21-8E48-05415801F08B} = {F355297B-D50C-4EAC-A95F-0E0D0520B720}
 		{42A7122D-2889-4E3E-AA2D-825C46C05B22} = {9E599AB3-B175-42D0-95C6-22348EF801AF}
 		{2FBE0E90-7022-4345-B1DA-FE617B0B01EC} = {8F128940-6788-4C5F-8554-45B8D15421DF}
+		{5310CC9E-48D5-4A09-9A40-4DB5B6CA4190} = {3158E48C-F337-4461-93A9-7DD60B7A0B27}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {0F318C3C-7C28-422E-96D9-53B0E2183674}
