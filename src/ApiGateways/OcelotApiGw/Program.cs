@@ -12,7 +12,7 @@ builder.Host.ConfigureAppConfiguration((hostingContext, config) =>
 builder.Host.ConfigureLogging(logging =>
 {
     logging.ClearProviders();
-    logging.AddConfiguration(builder.Configuration.GetSection(" Logging"));
+    logging.AddConfiguration(builder.Configuration.GetSection("Logging"));
     logging.AddConsole();
     logging.AddDebug();
 });
